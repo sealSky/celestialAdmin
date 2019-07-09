@@ -15,6 +15,10 @@ const ModelUser = {
     await poolConnect;
     try {
       let request = poll.request();
+      let userName = '17839191581';
+      let password = '123456';
+      let avatar = '000';
+      let type = 0;
       return request.query(USER.add);
     } catch (e) {
       console.log(e);
